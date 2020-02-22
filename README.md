@@ -39,7 +39,7 @@ If you clone scotchbox pro, by default it sets the document root to be /public. 
 * grab a copy of the database (there’ll be one in /dev) and import it to the scotchbox database
 * make sure the perch config show the correct database connection details (as above)
 
-### Additional instructions for Craft
+## Additional instructions for Craft
 
 You can’t run from root for craft, instead it wants you to run from `/web` so follow the instructions from **Running from root** but instead of removing `/public` from the document root. Change `public` to `web` (in two places). Then restart.
 
