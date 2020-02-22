@@ -48,3 +48,7 @@ You can’t run from root for craft, instead it wants you to run from `/web` so 
 
 * get a copy of the database and import it into scotchbox
 * create a .env file in the project directory and change the values (as above)
+
+## Thanks
+* This issue solves the 404: https://github.com/scotch-io/scotch-box-pro/issues/23
+* This video was useful in changing document root & general craft setup: https://craftquest.io/courses/localhosting-craft-cms/4312
