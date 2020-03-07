@@ -10,6 +10,13 @@ The server will be at `192.168.33.10`
 
 Unfortunately, scotchbox uses an Ubuntu release that’s not supported (and scotchbox itself doesn’t seem to be supported anymore) so when you run `vagrant up` for the first time, you’ll get a load of 404 errors. Here’s how to fix that:
 
+* `vagrant ssh`
+* `sudo sed -i -e 's/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list`
+* `sudo apt-get update`
+* `exit`
+* `vagrant halt`
+* `vagrant up`
+
 ## Running from root
 
 If you clone scotchbox pro, by default it sets the document root to be /public. This is a little inconvenient but easily fixed.
